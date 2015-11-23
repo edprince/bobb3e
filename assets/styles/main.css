@@ -59,7 +59,7 @@ nav {
   position: fixed;
   z-index: 1;
   width: 100%;
-  text-align: center;
+  text-align: right;
   border-bottom: solid 1px grey;
   padding-top: .8em;
   box-sizing: border-box;
