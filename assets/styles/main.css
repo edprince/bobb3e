@@ -1,0 +1,169 @@
+body {
+  width: 100%;
+  margin: 0;
+  //font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+.ws {
+  height: 100vh;
+  position: relative;
+  padding-left: 4em;
+  padding-right: 4em;
+  box-sizing: border-box;
+  padding-top: 4em;
+}
+
+i {
+  position: absolute;
+  text-align: center;
+  font-size: 3em;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-21px, 0);
+  -webkit-transform: translate(-21px, 0);
+  -moz-transform: translate(-21px, 0);
+  -o-transform: translate(-21px, 0);
+  -ms-transform: translate(-21px, 0);
+  cursor: pointer;
+}
+
+
+.odd {
+  background-color: #F0F0F0;
+  color: #242329;
+}
+
+.even {
+  background-color: #242329;
+  color: white;
+}
+
+.odd i {
+  color: #242329;
+}
+
+.even i {
+  color: white;
+}
+
+nav {
+  height: 50px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  border-bottom: solid 1px grey;
+  padding-top: .8em;
+  box-sizing: border-box;
+  transition-duration: .3s;
+}
+
+.scrollNav {
+  background-color: white !important;
+  transition-duration: .3s;
+}
+
+
+nav a {
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.left-align {
+  text-align: left;
+  left: 1em;
+}
+
+nav a:hover {
+  color: #656565 !important;
+}
+
+.header {
+  background-color: #3A424D;
+  background-image: url('http://cache.lego.com/r/www/r/mindstorms/-/media/franchises/mindstorms%202014/robots/product_bobb3e_mainstage.png?l.r2=317257715');
+  background-size: cover;
+  background-position: center;
+}
+
+.absolute-overlay {
+  position: absolute;
+  left: 20%;
+  border: solid 1px white;
+  width: 350px;
+  transform: translate(-175px, 0);
+  top: 10em;
+  background-color: transparent;
+  box-shadow: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+p {
+  font-size: 1.4em;
+}
+
+.profile {
+  border-radius: 50%;
+  background-image: url('http://philosophy.ucr.edu/wp-content/uploads/2014/10/no-profile-img.gif');
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  float: left;
+  -webkit-shape-outside: circle();
+  shape-outside: circle();
+  margin-right: 2em;
+}
+
+.massive {
+  font-size: 8em;
+  margin-top: 0;
+  padding:0;
+}
+
+.full-width {
+  width: 100%;
+  text-align: center;
+}
+
+.description {
+  font-size: 1.7em;
+  text-align: center;
+  width: 80%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: 0 auto;
+}
+
+.even .description {
+  border-bottom: solid 4px white;
+  border-top: solid 4px white;
+}
+
+.odd .description {
+  border-bottom: solid 4px #242329;
+  border-top: solid 4px #242329;
+}
+
+.size1 {
+  font-size: 7em;
+}
+.size2 {
+  font-size: 5em;
+}
+
+.size3 {
+  font-size: 5em;
+}
