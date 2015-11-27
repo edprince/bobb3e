@@ -21,36 +21,61 @@
     <div class='ws-wrapper'>
       <div class='ws header'>
         <div class='absolute-overlay'>
-          Group C5 - Lego Robot Game
+          Group C5 - Development Process
         </div>
       </div>
       <div class='ws'>
-        <h1 class='massive'>The Robot</h1>
+        <h1 class='massive'>Original Design</h1>
         <div class='full-width'>
-          <p class='description'>We decided to create a modified version of the
-            'Bobb3e' robot. This gives us a robot with tracks and a forklift,
-            giving us the ability to pick up and reposition objects. It also
-            included the infra-red sensor. We then added modifications to
-            Bobb3e to include the optical sensor and the touch sensor.<p>
+          <p class='description'>
+            Our original design was a maze filled with objects and obstacles,
+            that the robot could solve, removing/reacting effectively to
+            anything in its path. 
+          </p>
         </div>
       </div>
       <div class='ws'>
-        <h1 class='massive'>The Game</h1>
+        <h1 class='massive'>Revised Design</h1>
         <div class='full-width'>
-          <p class='description'>Bobb3e solves an adaptable maze, in which he
-            picks up an object and delivers it to the end. Also in the maze, the
-            player must solve a maths-based mini-game. Once it reaches the end,
-            he must deliver the object to the correct destination, depending on
-            the input that the user gives him.<p>
+          <p class='description'>
+            Due to encountering many problems, mostly physical, we decided to
+            simplify the game somewhat. The main two problems were the optical
+            sensor position, and the forklift/object shape. The sensor was
+            positioned to the right of the robot, making it very difficult to
+            follow a line to its left. The forklift was also not strong enough
+            to cope with a heavy object (without the object falling off), or
+            without unintentionally dropping a light object due to rough
+            movement when turning.
+          </p>
         </div>
       </div>
       <div class='ws'>
-        <h1 class='massive'>The Score</h1>
+        <h1 class='massive'>Early Flow Chart</h1>
         <div class='full-width'>
-          <p class='description'>The score continually increments, and the
-            player aims to achieve the lowest score possible. Adding to this,
-            the player can achieve a bonus for correct answers to the mini-game,
-            and is given time penalties for incorrect answers.<p>
+          <p class='description'>
+            <img src='assets/images/lrg.png'>
+          </p>
+        </div>
+      </div>
+      <div class='ws'>
+        <h1 class='massive'>Algorithm</h1>
+        <div class='full-width'>
+          <p class='description'>The algorithm works on an always-try-left
+            principle. At any intersection, the robot will try and check the
+            path to its left. If it finds a path, it will follow it, if it
+            doesn't find the path, it will turn back onto its original route. If
+            it finds blank space in front of it, it will spin 180 degrees and
+            move back along the path the other direction.<p>
+        </div>
+      </div>
+      <div class='ws'>
+        <h1 class='massive'>Inaccurate Tiles</h1>
+        <div class='full-width'>
+          <p class='description'>After creating the first prototype of the maze,
+          we realised that the robot was going to struggle with a maze that was
+        not consistent. Therefore we had to spend time re-making the tiles to
+        very specific dimensions, with the maze path aligning at perfect right
+        angles throughout the maze.</p>
         </div>
       </div>
       <div class='ws'>
