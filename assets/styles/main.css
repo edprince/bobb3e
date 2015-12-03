@@ -150,8 +150,10 @@ video {
   //height: 100vh;
   z-index: 20;
   //-webkit-transform: scaleX(2);
+  width: 600px;
+  display: block;
+  height: auto;
   margin: 0 auto;
-  transform: translate(50%, 0);
 }
 
 .full-width {
