@@ -36,6 +36,11 @@ i {
   cursor: pointer;
 }
 
+.massive-icon {
+  font-size: 6em;
+  margin-bottom: 2em;
+}
+
 
 .odd {
   background-color: #F0F0F0;
